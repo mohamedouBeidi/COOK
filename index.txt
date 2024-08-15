@@ -1,0 +1,96 @@
+Cook.io - Cooking made easy
+Cook is a website dedicated to food and cooking enthusiasts, offering a wide variety of recipes and culinary tips to suit all tastes and skill levels. Whether you're looking for new recipes to try or want to improve your cooking skills, Cook provides all the inspiration and ideas you need to create delicious and healthy meals. Explore our diverse recipe collection and embark on an enjoyable cooking journey with Cook!
+
+
+
+#---------- HEADER ----------#
+
+alt = Cook.io
+
+Home
+Recipes
+
+<span class="material-symbols-outlined light-icon" aria-hidden="true">light_mode</span>
+<span class="material-symbols-outlined dark-icon" aria-hidden="true">dark_mode</span>
+
+<span class="material-symbols-outlined" aria-hidden="true">book</span>
+Saved Recipes
+
+
+
+#---------- MOBILE NAV ----------#
+
+<span class="material-symbols-outlined" aria-hidden="true">lunch_dining</span>
+Recipes
+
+<span class="material-symbols-outlined" aria-hidden="true">home</span>
+Home
+
+<span class="material-symbols-outlined" aria-hidden="true">book</span>
+Saved
+
+
+
+#---------- HERO ----------#
+
+Your desired dish?
+
+<span class="material-symbols-outlined leading-icon" aria-hidden="true">local_dining</span>
+
+placeholder = Search recipes...
+
+<span class="material-symbols-outlined" aria-hidden="true">search</span>
+
+Search any recipe e.g: burger, pizza, sandwich, toast.
+
+
+
+#---------- TAB ----------#
+
+Best Foods
+Burgers
+Desserts
+Drinks
+Steaks
+
+alt = Recipe name
+
+Recipe name
+
+<span class="material-symbols-outlined" aria-hidden="true">schedule</span>
+2 minutes
+
+<span class="material-symbols-outlined bookmark-add" aria-hidden="true">bookmark_add</span>
+<span class="material-symbols-outlined bookmark" aria-hidden="true">bookmark</span>
+
+
+
+
+#---------- TAG ----------#
+
+Choose your health preference.
+
+Choosing your health preference is an important step towards achieving a healthier lifestyle.
+
+
+
+#---------- FOOTER ----------#
+
+Copyright (c) 2024 Mohamed Yasser
+
+
+#============== RECIPES PAGE =============#
+
+All Recipes - Cook.io
+
+
+
+#---------- RECIPE CONTENT ----------#
+
+All Recipes
+
+
+
+#============== SAVED RECIPES =============#
+
+All Saved Recipes

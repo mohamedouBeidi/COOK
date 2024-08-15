@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" data-theme="light">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- favicon -->
+        <link rel="icon" href="./src/assets/images/favicon.svg">
+        <!-- meta tags -->
+        <title>Cook.io | Recipes</title>
+        <meta title="title" content="Cook.io - Cooking made easy">
+        <meta title="description" content="Cook is a website dedicated to food and cooking enthusiasts, 
+        offering a wide variety of recipes and culinary tips to suit all tastes and skill levels. 
+        Whether you're looking for new recipes to try or want to improve your cooking skills, Cook provides 
+        all the inspiration and ideas you need to create delicious and healthy meals. Explore our diverse 
+        recipe collection and embark on an enjoyable cooking journey with Cook!">
+        <meta title="keywords" content="HTML, CSS, JS. TS, API">
+        <meta title="outher" content="Mohamed Yasser">
+        <!-- google font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=DM+Serif+Display&display=swap"
+        rel="stylesheet">
+        <!-- Material icon -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0..1,0">
+        <!-- custom cdnjs link -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" 
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+        <!-- custom css link -->
+        <link rel="stylesheet" href="./src/assets/css/style.css">
+    </head>
+    <body>
+        <!-- #HEADER -->
+        <header class="header">
+            <a href="index.html" class="logo">
+                <img src="./src/assets/images/logo-dark.svg" alt="Cook.io" class="logo-dark img-cover" data-logo-dark>
+                <img src="./src/assets/images/logo-light.svg" alt="Cook.io" class="logo-light img-cover" data-logo-light>
+            </a>
+
+            <nav class="navbar">
+                <ul class="navbar-list">
+                    <li class="navbar-items">
+                        <a href="index.html" class="navbar-link label-small">Home</a>
+                    </li>
+
+                    <li class="navbar-items">
+                        <a href="recipes.html" class="navbar-link active label-small">Recipes</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="icons">
+                <button class="btn-mood dark-mood" data-dark-mood>
+                    <span class="material-symbols-outlined dark-icon" aria-hidden="true">dark_mode</span>
+                </button>
+                
+                <button class="btn-mood light-mood" data-light-mood>
+                    <span class="material-symbols-outlined light-icon" aria-hidden="true">light_mode</span>
+                </button>
+
+                <a href="saved-recipes.html" class="btn-primary label-small">
+                    <span class="material-symbols-outlined" aria-hidden="true">book</span>
+                    Saved Recipes
+                </a>
+            </div>
+        </header>
+        
+        <!-- Mobile nav -->
+        <nav class="mobile-nav">
+            <a href="recipes.html" class="btn-mobile-nav label-small">
+                <span class="material-symbols-outlined active" aria-hidden="true">lunch_dining</span>
+                Recipes
+            </a>
+
+            <a href="index.html" class="btn-mobile-nav label-small">
+                <span class="material-symbols-outlined" aria-hidden="true">home</span>
+                Home
+            </a>
+
+            <a href="saved-recipes.html" class="btn-mobile-nav label-small">
+                <span class="material-symbols-outlined" aria-hidden="true">book</span>
+                Saved
+            </a>
+        </nav>
+
+        <main class="main container">
+            <article>
+                <div class="recipes">
+                    <h1 class="title headline-small">All Recipes</h1>
+
+                    <div class="recipes-list" data-recipes-list></div>
+
+                    <div class="input-box" data-input-box>
+                        <input type="text" placeholder="page" class="input-page label-small" data-input-page>
+                        <p class="label-small" data-index-page></p>
+                    </div>
+                </div>
+            </article>
+        </main>
+
+        <!-- #FOOTER -->
+        <footer class="footer">
+            <p class="copyright label-small">Copyright (c) 2024 Mohamed Yasser</p>
+
+            <div class="social-list">
+                <a target="_blank" href="https://www.linkedin.com/in/mohamed-yasser-2706252aa/" rel='noopener noreferrer' class="social-link">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+
+                <a target="_blank" href="https://wa.me/message/YEX6SYAH54GFC1" rel='noopener noreferrer' class="social-link">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+
+                <a target="_blank" href="https://www.instagram.com/the_artists_web" rel='noopener noreferrer' class="social-link">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                
+                <a target="_blank" href="https://www.youtube.com/@theartistweb" rel='noopener noreferrer' class="social-link">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+
+                <a target="_blank" href="https://www.facebook.com/profile.php?id=100013677881896" rel='noopener noreferrer' class="social-link">
+                    <i class="fa-brands fa-square-facebook"></i>
+                </a>
+            </div>
+        </footer>
+        
+        <!-- custom js link -->
+        <script src="./src/theme.js"></script>
+        <script src="./src/recipes.js"></script>
+    </body>
+</html>
